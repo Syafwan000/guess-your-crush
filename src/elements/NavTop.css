@@ -1,0 +1,37 @@
+.navbar-title {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px !important;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-title:hover {
+    color: #000;
+}
+
+.navbar-link a {
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-link a {
+    color: #000 !important;
+}
+
+.change {
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #fff;
+}
+
+.active {
+    border-bottom: 2px solid #000;
+}
+
+@media (max-width: 576px) {
+    .navbar-title {
+        font-size: 24px !important;
+    }
+}

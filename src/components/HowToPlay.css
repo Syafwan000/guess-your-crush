@@ -1,0 +1,33 @@
+.how-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.how-list {
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+}
+
+@media (max-width: 992px) {
+    .pattern-image {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .pattern-image {
+        width: 40%;
+    }
+}
+
+@media (max-width: 528px) {
+    .pattern-image {
+        width: 50%;
+    }
+}
+
+@media (max-width: 420px) {
+    .how-list {
+        font-size: 14px;
+    }
+}

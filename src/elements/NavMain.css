@@ -1,0 +1,38 @@
+.nav-main {
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+}
+
+.main-back {
+    font-size: 14px !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none;
+    background-color: #DC3545;
+    color: #fff !important;
+    padding: 8px 20px 8px 10px;
+    border-radius: 20px;
+}
+
+.main-back:hover {
+    color: #fff !important;
+    background-color: rgb(207, 50, 65);
+}
+
+.back-icon {
+    font-size: 28px;
+}
+
+.length-counter {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px;
+}
+
+@media (max-width: 576px) {
+    .main-back {
+        font-size: 12px !important;
+    }
+
+    .length-counter {
+        font-size: 16px;
+    }
+}
