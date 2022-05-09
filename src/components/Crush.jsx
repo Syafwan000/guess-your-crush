@@ -252,64 +252,6 @@ function Crush() {
             progress2 = 100;
             step2 = 7;
         }
-        
-    } else if(length === "8") {
-
-        // 8 Word
-        if(choose.length === 8) {
-            progress = 12;
-            step = 1;
-        } else if(choose.length === 16) {
-            progress = 24;
-            step = 2;
-        } else if(choose.length === 24) {
-            progress = 36;
-            step = 3;
-        } else if(choose.length === 32) {
-            progress = 48;
-            step = 4;
-        } else if(choose.length === 40) {
-            progress = 60;
-            step = 5;
-        } else if(choose.length === 48) {
-            progress = 72;
-            step = 6;
-        } else if(choose.length === 56) {
-            progress = 86;
-            step = 7;
-        } else if(choose.length === 64) {
-            progress = 100;
-            step = 8;
-        }
-
-        if(choose2.length === 8) {
-            progress2 = 12;
-            step2 = 1;
-        } else if(choose2.length === 16) {
-            progress2 = 24;
-            step2 = 2;
-        } else if(choose2.length === 24) {
-            progress2 = 36;
-            step2 = 3;
-        } else if(choose2.length === 32) {
-            progress2 = 48;
-            step2 = 4;
-        } else if(choose2.length === 40) {
-            progress2 = 60;
-            step2 = 5;
-        } else if(choose2.length === 48) {
-            progress2 = 72;
-            step2 = 6;
-        } else if(choose2.length === 56) {
-            progress2 = 86;
-            step2 = 7;
-        } else if(choose2.length === 64) {
-            progress2 = 100;
-            step2 = 8;
-        }
-        
-    } else if(length === 9) {
-        
     }
 
     return (
