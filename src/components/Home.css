@@ -1,13 +1,15 @@
 .content-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    margin: 28px 0;
+    margin: 24px 0;
+    cursor: default;
 }
 
 .content-desc {
     font-family: 'Poppins', sans-serif;
     line-height: 35px;
-    margin: 48px 0;
+    margin: 34px 0;
+    cursor: default;
 }
 
 .content-button {
@@ -68,7 +70,7 @@
     }
 
     .wrapper-title {
-        margin-top: 24px !important;
+        margin: 12px 0 !important;
     }
 }
 

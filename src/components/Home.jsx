@@ -12,8 +12,8 @@ function Home() {
             <Container className="my-5 px-4">
                 <Row>
                     <Col className="wrapper-title">
-                        <h1 className="content-title">Tebak nama teman, crush kamu atau siapapun itu</h1>
-                        <p className="content-desc"><strong>GuessYourCrush</strong> merupakan sebuah permainan tebak tebakan, dimana <strong>GuessYourCrush</strong> dapat menebak nama teman, crush kamu atau nama yang sedang kamu pikirkan. tetapi kamu hanya bisa menebak nama yang terdiri dari 3 sampai 7 huruf.<br />
+                        <h1 className="content-title">Tebak nama crush, teman atau siapapun itu</h1>
+                        <p className="content-desc"><strong>GuessYourCrush</strong> merupakan sebuah permainan tebak tebakan berbasis web, dimana web ini dapat menebak nama crush, teman atau nama yang sedang kamu pikirkan. tetapi kamu hanya bisa menebak nama yang terdiri dari 3 sampai 7 huruf.<br />
                         <i><strong>#GYC&nbsp;&nbsp;#GuessYourCrush&nbsp;&nbsp;#TebakNama</strong></i>
                         </p>
                         <Link className="content-button" to="/start">Mulai <BiPlayCircle className="content-icon py-1" /></Link>

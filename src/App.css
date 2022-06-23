@@ -10,3 +10,32 @@
     background: #000; 
     border-radius: .5rem;
 }
+
+.preload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+h1.preload-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    cursor: default;
+}
+
+p.preload-desc {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+span.preload-change {
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #fff;
+}

@@ -1,35 +1,33 @@
-.nav-main {
+nav.nav-main {
     background-color: #fff;
     border-bottom: 2px solid #000;
+    z-index: 999;
 }
 
-.main-back {
-    font-size: 14px !important;
+.btn-back {
     font-family: 'Poppins', sans-serif !important;
+    font-weight: 300;
     text-decoration: none;
     background-color: #DC3545;
     color: #fff !important;
-    padding: 8px 20px 8px 10px;
-    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 1.5rem;
 }
 
-.main-back:hover {
+.btn-back:hover {
     color: #fff !important;
     background-color: rgb(207, 50, 65);
-}
-
-.back-icon {
-    font-size: 28px;
 }
 
 .length-counter {
     font-family: 'Poppins', sans-serif !important;
     font-size: 18px;
+    cursor: default;
 }
 
 @media (max-width: 576px) {
-    .main-back {
-        font-size: 12px !important;
+    .btn-back {
+        font-size: 14px !important;
     }
 
     .length-counter {

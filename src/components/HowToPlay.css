@@ -1,11 +1,13 @@
 .how-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
+    cursor: default;
 }
 
 .how-list {
     font-family: 'Poppins', sans-serif;
     line-height: 35px;
+    cursor: default;
 }
 
 @media (max-width: 992px) {
